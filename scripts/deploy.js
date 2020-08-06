@@ -4,7 +4,7 @@ ghpages.publish(
   "__sapper__/export",
   {
     branch: "master",
-    repo: "https://github.com/mbazhlekova/mbazhlekova.github.io",
+    repo: "git@github.com:mbazhlekova/mbazhlekova.github.io.git",
     user: {
       name: "mbazhlekova",
       email: "mbazhlek@gmail.com",

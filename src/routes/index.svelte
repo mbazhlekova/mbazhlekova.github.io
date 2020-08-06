@@ -5,7 +5,6 @@
   }
 
   h1 {
-    text-align: center;
     margin: 0 auto;
   }
 
@@ -16,7 +15,7 @@
 
   @media (min-width: 480px) {
     h1 {
-      font-size: 6em;
+      font-size: 5em;
     }
   }
 </style>
@@ -25,4 +24,10 @@
   <title>Maria Bazhlekova</title>
 </svelte:head>
 
-<h1>Hello 👋, I'm Maria Bazhlekova, a full-stack software engineer.</h1>
+<h1>
+  Hello 👋,
+  <br />
+  I'm Maria Bazhlekova,
+  <br />
+  a full-stack software engineer.
+</h1>
