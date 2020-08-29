@@ -6,7 +6,7 @@ ghpages.publish(
     branch: "master",
     repo: "git@github.com:mbazhlekova/mbazhlekova.github.io.git",
     user: {
-      name: "mbazhlekova",
+      name: "Maria Bazhlekova",
       email: "mbazhlek@gmail.com",
     },
   },
