@@ -1,7 +1,15 @@
 <svelte:head>
-	<title>About</title>
+  <title>About</title>
 </svelte:head>
 
-<h1>About this site</h1>
+<h1>About</h1>
 
-<p>This is the 'about' page. There's not much here.</p>
+<p>
+  Hi, I'm Maria! I'm a software engineer from Bulgaria 🇧🇬 living in Portland, OR
+  🇺🇸.
+</p>
+
+<p>
+  My interest in coding started in the days of MySpace when I learned I could edit the
+  HTML & CSS to have the coolest looking page.
+</p>
