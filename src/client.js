@@ -1,5 +1,5 @@
 import * as sapper from "@sapper/app";
-import "highlight.js/styles/github.css";
+import "highlight.js/styles/gruvbox-dark.css";
 
 sapper.start({
   target: document.querySelector("#sapper"),
