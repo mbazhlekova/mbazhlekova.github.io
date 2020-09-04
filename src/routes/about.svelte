@@ -86,6 +86,8 @@
       <h2>This site</h2>
       <p>
         This site is powered by
+        <a href="https://svelte.dev/">Svelte</a>
+        &
         <a href="https://sapper.svelte.dev/">Sapper</a>
       </p>
     </section>
