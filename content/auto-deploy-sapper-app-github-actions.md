@@ -8,7 +8,7 @@ date: "September 3, 2020"
 
 Recently, I decided to update my personal website and blog. I like to learn new things through personal projects so I decided to use [Sapper](https://sapper.svelte.dev/), a server-side rendered framework for [Svelte](https://svelte.dev/).
 
-After building my Sapper blog, I deployed it to GitHub Pages through manually running a script to push the compiled code to the master branch of my repo. This is the branch that is linked to my GitHub Pages site. But there were a few times when I forgot to deploy changes and found the manual process cumbersome. Enter GitHub Actions.
+After building my Sapper blog, I deployed it to GitHub Pages manually by running a script to push the compiled code to the branch deployed on my GitHub Pages site. But there were a few times when I forgot to deploy changes and found the manual process cumbersome. Enter GitHub Actions.
 
 ## What are GitHub Actions?
 
@@ -18,11 +18,11 @@ To create a build and deploy actions, first you'll need to generate a Personal A
 
 Go [here](https://github.com/settings/tokens) to generate a token
 
-The go to your repository, select 'Settings' and then 'Secrets' from the left hand menu. There you can store the token you just created. I went with 'GITHUB' as the name for my secret but you can name it whatever you want.
+The go to your repository, select **'Settings'** and then **'Secrets'** from the left hand menu. There you can store the token you just created. I went with 'GITHUB' as the name for my secret but you can name it whatever you want.
 
-Next create a .github directory in your project and in it a workflows directory with a main.yml file.
+Next create a `.github` directory in your project and in it a `workflows` directory with a `main.yml` file.
 
-Here's the script:
+Here's the script to copy into the main.yml file:
 
 ```yaml
 name: Build and Deploy
@@ -52,3 +52,7 @@ jobs:
           BRANCH: master # Replace with name of branch deployed to GH Pages
           FOLDER: __sapper__/export
 ```
+
+A few things to note, I work off the `develop` branch and have `master` deployed to GitHub Pages. In the above script, replace the values with your branch names.
+
+And that's it! 🎉 Now when you push changes to your main branch, they'll automatically be deployed to GitHub Pages.
