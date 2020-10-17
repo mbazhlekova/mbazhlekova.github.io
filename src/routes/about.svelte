@@ -68,6 +68,9 @@
         family, babying the plants in my garden, playing a board game, reading a
         comic book or working on a new sewing project.
       </p>
+      <p>
+        You can learn more about my experience from my <a href="resume">résumé.</a>
+      </p>
     </section>
     <section>
       <h2>Find me around the web</h2>
