@@ -33,6 +33,7 @@
 
   img {
     border-radius: 50%;
+    width: 85%;
   }
 </style>
 
