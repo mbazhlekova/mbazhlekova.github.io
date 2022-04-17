@@ -33,7 +33,7 @@
 
   img {
     border-radius: 50%;
-    width: 85%;
+    width: 40%;
   }
 </style>
 
@@ -48,7 +48,7 @@
     <section class="bio-section">
       <p>
         Hi, I'm Maria! I'm a software engineer from Bulgaria 🇧🇬 living in
-        Portland, OR 🇺🇸.
+        Dallas, TX 🇺🇸.
       </p>
       <p>
         My interest in coding started in the days of MySpace when I learned I
@@ -61,13 +61,12 @@
       </p>
       <p>
         I really enjoy being a constant beginner and learning new things. These
-        days I'm focused on deeply understanding functional programming with
-        Elixir and exploring new front-end frameworks like Svelte.
+        days I'm focused on deeply understanding the DevOps side of things and playing with Go.
       </p>
       <p>
-        Outside of work, you can find me exploring the Pacific Northwest with my
+        Outside of work, you can find me exploring nature with my
         family, babying the plants in my garden, playing a board game, reading a
-        comic book or working on a new sewing project.
+        book or working on a new sewing project.
       </p>
       <p>
         You can learn more about my experience from my <a href="resume">résumé.</a>
